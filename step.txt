@@ -1,0 +1,5 @@
+1. Generate proto file
+2. Generate proto_text file
+3. Generate proto_bin file by proto_text file
+protoc --encode=*InfoList *.proto<*.proto_text>*.data
+
